@@ -6,8 +6,8 @@ import CRMCard from "./components/CRMCard";
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 p-6">
-      <div className=" mx-auto max-w-7xl space-y-6">
-        <div className="relative">
+      <div className=" mx-auto max-w-7xl ">
+        <div className="relative space-y-6">
           <HeroCard />
 
           <div className="grid gap-6 lg:grid-cols-2">
